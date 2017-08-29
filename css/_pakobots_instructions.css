@@ -1,0 +1,29 @@
+header {
+  position: fixed;
+  display: flex;
+  height: 50px;
+  align-items: center;
+  padding-left: 2em;
+  font-weight: bold;
+  width:100%;
+  color:white;
+}
+
+header i{
+  margin-right:0.75em;
+}
+
+header a{
+  text-decoration: none;
+  color:white;
+}
+
+header a:hover{
+  text-decoration: none;
+  color:white;
+}
+
+header span{
+  flex-grow: 1;
+  text-align: center;
+}
