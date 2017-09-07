@@ -34,7 +34,7 @@
 	<link rel="stylesheet" type="text/css" href="../css/animate.css" />
 	<link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="../css/main.css" />
-	<link rel="stylesheet" type="text/css" href="../css/_pakobots.css" />
+	<link rel="stylesheet" type="text/css" href="../css/pakobots.css" />
 	<link rel="stylesheet" type="text/css" href="../css/pakobotsInstructions.css" />
 
 
@@ -61,25 +61,22 @@
 
 
 	<!--  Quick Start Section  -->
-	<section class="about" id="bom">
+	<section class="about" id="quick">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 animated wow fadeInRight">
 					<div class="features_list" style="margin-bottom:4em;">
-						<h1 class="text-uppercase text-center">Quick Start</h1>
+						<h1 class="text-uppercase">Quick Start</h1>
 					</div>
 				</div>
-				<div class="col-md-12 animated wow fadeInLeft pb-robot">
-					<div class="pb-robot">
-						<div class="iphone">
-							<img src="img/iphone.png" alt="" title="">
-						</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 animated wow fadeInLeft">
+					<div class="pb-robot-btns" style="margin:auto;">
+						<a href="https://github.com/pakobots" target="_blank" class="pb-robot-btn"><i class="fa fa-github"></i> GitHub Repository</a>
 					</div>
-					<div class="pb-robot-btns">
-						<a href="#quick" class="pb-robot-btn"><i class="fa fa-flash"></i> Quick Start</a>
-						<a href="#bom" class="pb-robot-btn"><i class="fa fa-cubes"></i> Bill Of Materials (BOM)</a>
-						<a href="#hardware" class="pb-robot-btn"><i class="fa fa-gears"></i> Hardware Assembly</a>
-						<a href="#software" class="pb-robot-btn"><i class="fa fa-code"></i> Software Development</a>
+					<div>
+						<img src="../img/pakobots/mousev1/assemblyV18.png" style="max-width:500px;margin-top:3em;"/>
 					</div>
 				</div>
 			</div>
@@ -95,124 +92,86 @@
 			<div class="row">
 				<div class="col-md-6 animated wow fadeInRight">
 					<div class="features_list" style="margin-bottom:4em;">
-						<h1 class="text-uppercase text-center">Bill Of Materials</h1>
-						<table cellspacing="10" cellpadding="1">
-    <tbody>
-        <tr>
-			<td><b>Cost</b></td>
-			<td><b>Quantity</b></td>
-			<td><b>Total</b></td>
-			<td><b>Item Description</b></td>
-	    	<td><b>Note</b></td>
-        </tr>
-        <tr>
-            <td class="s1" dir="ltr">$4.99</td>
-            <td class="s1">1</td>
-            <td class="s1">$4.99</td>
-            <td class="s0">Rechargeable battery 4000ma</td>
-            <td class="s0">:( N/A Store Only</td>
-        </tr>
-        <tr>
-            <td class="s1">$15.00 </td>
-            <td class="s1">1</td>
-            <td class="s1">$15.00</td>
-            <td class="s2"><a target="_blank" href="https://www.adafruit.com/product/3269">ESP32 dev board</a></td>
-            <td class="s2"></td>
-        </tr>
-        <tr>
-            <td class="s1">$5.45</td>
-            <td class="s1">1</td>
-            <td class="s1">$5.45</td>
-            <td class="s2"><a target="_blank" href="https://www.sparkfun.com/products/13845">h bridge motor driver</a></td>
-            <td class="s2"></td>
-        </tr>
-        <tr>
-            <td class="s1">$1.95</td>
-            <td class="s1">1</td>
-            <td class="s1">$1.95</td>
-            <td class="s2"><a target="_blank" href="https://www.sparkfun.com/products/9264">RGB LED diffused</a></td>
-            <td class="s2"></td>
-        </tr>
-        <tr>
-            <td class="s1">$4.98</td>
-            <td class="s1">2</td>
-            <td class="s1">$9.96</td>
-            <td class="s2"><a target="_blank" href="http://www.homedepot.com/p/PartsmasterPro-Large-O-Ring-Set-2-6-Piece-57001/206598667">Large O-Ring assortment</a></td>
-            <td class="s3 softmerge"></td>
-        </tr>
-        <tr>
-            <td class="s1">$0.48</td>
-            <td class="s1">1</td>
-            <td class="s1">$0.48</td>
-            <td class="s2"><a target="_blank" href="http://www.homedepot.com/p/Everbilt-M3-x-10-mm-Zinc-Plated-Phillips-Pan-Head-Machine-Screw-3-per-Bag-802708/204282658">m3 screw 10mm</a></td>
-            <td class="s3 softmerge"></td>
-        </tr>
-        <tr>
-            <td class="s1">$0.75</td>
-            <td class="s1">1</td>
-            <td class="s1">$0.75</td>
-            <td class="s2"><a target="_blank" href="http://www.homedepot.com/p/Crown-Bolt-M3-0-5-Zinc-Plated-Steel-Hex-Nuts-5-Pack-37568/202836254">m3 nut </a></td>
-            <td class="s3 softmerge"></td>
-        </tr>
-        <tr>
-            <td class="s1" dir="ltr">$1.95</td>
-            <td class="s1" dir="ltr">1</td>
-            <td class="s1">$1.95</td>
-            <td class="s2" dir="ltr"><a target="_blank" href="https://www.sparkfun.com/products/11026">Jumpers Male to Female </a></td>
-            <td class="s2" dir="ltr"></td>
-        </tr>
-        <tr>
-            <td class="s1" dir="ltr">$1.95</td>
-            <td class="s1" dir="ltr">1</td>
-            <td class="s1">$1.95</td>
-            <td class="s2" dir="ltr"><a target="_blank" href="https://www.sparkfun.com/products/12796">Jumper Female to Female</a></td>
-            <td class="s2" dir="ltr"></td>
-        </tr>
-        <tr>
-            <td class="s1">$0.14</td>
-            <td class="s1">3.04</td>
-            <td class="s1">$0.43</td>
-            <td class="s0">3D Print</td>
-            <td class="s0"></td>
-        </tr>
-        <tr>
-            <td class="s0"></td>
-            <td class="s0"></td>
-            <td class="s0"></td>
-            <td class="s0"></td>
-            <td class="s0" dir="ltr"></td>
-        </tr>
-        <tr>
-            <td class="s0"></td>
-            <td class="s0"></td>
-            <td class="s0"></td>
-            <td class="s0"></td>
-            <td class="s0"></td>
-        </tr>
-        <tr>
-            <td class="s0"></td>
-            <td class="s0"></td>
-            <td class="s4">$42.91 </td>
-            <td class="s0">total</td>
-            <td class="s0"></td>
-        </tr>
-    </tbody>
-</table>
-						
+						<h1 class="text-uppercase">Bill Of Materials</h1>
 					</div>
 				</div>
-				<div class="col-md-12 animated wow fadeInLeft pb-robot">
-					<div class="pb-robot">
-						<div class="iphone">
-							<img src="img/iphone.png" alt="" title="">
-						</div>
-					</div>
-					<div class="pb-robot-btns">
-						<a href="#quick" class="pb-robot-btn"><i class="fa fa-flash"></i> Quick Start</a>
-						<a href="#bom" class="pb-robot-btn"><i class="fa fa-cubes"></i> Bill Of Materials (BOM)</a>
-						<a href="#hardware" class="pb-robot-btn"><i class="fa fa-gears"></i> Hardware Assembly</a>
-						<a href="#software" class="pb-robot-btn"><i class="fa fa-code"></i> Software Development</a>
-					</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 animated wow fadeInLeft">
+					<table cellspacing="10" cellpadding="1">
+						<tbody>
+							<tr>
+								<th><b>Cost</b></th>
+								<th><b>Quantity</b></th>
+								<th><b>Total</b></th>
+								<th><b>Item Description</b></th>
+							</tr>
+							<tr>
+								<td dir="ltr">$4.99</td>
+								<td>1</td>
+								<td>$4.99</td>
+								<td>Onn Power Bank Model:ONA17WIO21 (Walmart)</td>
+							</tr>
+							<tr>
+								<td>$15.00 </td>
+								<td>1</td>
+								<td>$15.00</td>
+								<td><a target="_blank" href="https://www.adafruit.com/product/3269">ESP32 dev board</a></td>
+							</tr>
+							<tr>
+								<td>$5.45</td>
+								<td>1</td>
+								<td>$5.45</td>
+								<td><a target="_blank" href="https://www.sparkfun.com/products/13845">h bridge motor driver</a></td>
+							</tr>
+							<tr>
+								<td>$1.95</td>
+								<td>1</td>
+								<td>$1.95</td>
+								<td><a target="_blank" href="https://www.sparkfun.com/products/9264">RGB LED diffused</a></td>
+							</tr>
+							<tr>
+								<td dir="ltr">$1.95</td>
+								<td dir="ltr">1</td>
+								<td>$1.95</td>
+								<td dir="ltr"><a target="_blank" href="https://www.sparkfun.com/products/11026">Jumpers Male to Female </a></td>
+							</tr>
+							<tr>
+								<td dir="ltr">$1.95</td>
+								<td dir="ltr">1</td>
+								<td>$1.95</td>
+								<td dir="ltr"><a target="_blank" href="https://www.sparkfun.com/products/12796">Jumper Female to Female</a></td>
+							</tr>
+							<tr>
+								<td>$4.98</td>
+								<td>2</td>
+								<td>$9.96</td>
+								<td><a target="_blank" href="http://www.homedepot.com/p/PartsmasterPro-Large-O-Ring-Set-2-6-Piece-57001/206598667">Large O-Ring assortment</a></td>
+							</tr>
+							<tr>
+								<td>$0.48</td>
+								<td>1</td>
+								<td>$0.48</td>
+								<td><a target="_blank" href="http://www.homedepot.com/p/Everbilt-M3-x-10-mm-Zinc-Plated-Phillips-Pan-Head-Machine-Screw-3-per-Bag-802708/204282658">m3 screw 10mm</a></td>
+							</tr>
+							<tr>
+								<td>$0.75</td>
+								<td>1</td>
+								<td>$0.75</td>
+								<td><a target="_blank" href="http://www.homedepot.com/p/Crown-Bolt-M3-0-5-Zinc-Plated-Steel-Hex-Nuts-5-Pack-37568/202836254">m3 nut </a></td>
+							</tr>
+							<tr>
+								<td>$0.14</td>
+								<td>3.04</td>
+								<td>$0.43</td>
+								<td>3D Print</td>
+							</tr>
+							<tr>
+								<td colspan="4" class="bom-total">
+									Total part cost: $42.91
+								</td>
+						</tbody>
+					</table>
 				</div>
 			</div>
 		</div>
@@ -222,35 +181,39 @@
 
 
 	<!--  Hardware Section  -->
-	<section class="about" id="hardware">
+	<section class="hardware about" id="hardware">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 animated wow fadeInRight">
 					<div class="features_list" style="margin-bottom:4em;">
-						<h1 class="text-uppercase text-center">Hardware</h1>
-							<p><img src="/img/1-Right1.png" alt="hardware assembly instructions step 1" title="hardware assembly instructions step 1"></p>
-							<p><img src="/img/2-Right2.png" alt="hardware assembly instructions step 2" title="hardware assembly instructions step 2"></p>
-							<p><img src="/img/3-Right3.png" alt="hardware assembly instructions step 3" title="hardware assembly instructions step 3"></p>
-							<p><img src="/img/4-Left1.png" alt="hardware assembly instructions step 4" title="hardware assembly instructions step 4"></p>
-							<p><img src="/img/5-Left2.png" alt="hardware assembly instructions step 5" title="hardware assembly instructions step 5"></p>
-							<p><img src="/img/6-Left3.png" alt="hardware assembly instructions step 6" title="hardware assembly instructions step 6"></p>
-							<p><img src="/img/7-ChassisBattery.png" alt="hardware assembly instructions step 7" title="hardware assembly instructions step 7"></p>
-							<p><img src="/img/8-ChassisScrews.png" alt="hardware assembly instructions step 8" title="hardware assembly instructions step 8"></p>
-							<p><img src="/img/9-Assembled.png" alt="hardware assembly instructions step 9" title="hardware assembly instructions step 9"></p>
+						<h1 class="text-uppercase">Hardware</h1>
 					</div>
 				</div>
-				<div class="col-md-12 animated wow fadeInLeft pb-robot">
-					<div class="pb-robot">
-						<div class="iphone">
-							<img src="img/iphone.png" alt="" title="">
-						</div>
-					</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 tile animated wow fadeInLeft" style="margin:4em;">
 					<div class="pb-robot-btns">
-						<a href="#quick" class="pb-robot-btn"><i class="fa fa-flash"></i> Quick Start</a>
-						<a href="#bom" class="pb-robot-btn"><i class="fa fa-cubes"></i> Bill Of Materials (BOM)</a>
-						<a href="#hardware" class="pb-robot-btn"><i class="fa fa-gears"></i> Hardware Assembly</a>
-						<a href="#software" class="pb-robot-btn"><i class="fa fa-code"></i> Software Development</a>
+						<a href="https://github.com/pakobots/cad/tree/mouse/stl" target="_blank" class="pb-robot-btn"><i class="fa fa-print"></i> 3D Printable Designs (STL)</a>
+						<a href="https://github.com/pakobots/cad/tree/mouse/f3d" target="_blank" class="pb-robot-btn"><i class="fa fa-asterisk"></i> Fusion360 Designs (F3D)</a>
 					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 tile  animated wow fadeInLeft" style="margin:4em;">
+					<h2>Assembly Instructions</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 tile">
+					<p class="animated wow fadeInUp"><img src="../img/1-Right1.png" alt="hardware assembly instructions step 1" title="hardware assembly instructions step 1"></p>
+					<p class="animated wow fadeInUp"><img src="../img/2-Right2.png" alt="hardware assembly instructions step 2" title="hardware assembly instructions step 2"></p>
+					<p class="animated wow fadeInUp"><img src="../img/3-Right3.png" alt="hardware assembly instructions step 3" title="hardware assembly instructions step 3"></p>
+					<p class="animated wow fadeInUp"><img src="../img/4-Left1.png" alt="hardware assembly instructions step 4" title="hardware assembly instructions step 4"></p>
+					<p class="animated wow fadeInUp"><img src="../img/5-Left2.png" alt="hardware assembly instructions step 5" title="hardware assembly instructions step 5"></p>
+					<p class="animated wow fadeInUp"><img src="../img/6-Left3.png" alt="hardware assembly instructions step 6" title="hardware assembly instructions step 6"></p>
+					<p class="animated wow fadeInUp"><img src="../img/7-ChassisBattery.png" alt="hardware assembly instructions step 7" title="hardware assembly instructions step 7"></p>
+					<p class="animated wow fadeInUp"><img src="../img/8-ChassisScrews.png" alt="hardware assembly instructions step 8" title="hardware assembly instructions step 8"></p>
+					<p class="animated wow fadeInUp"><img src="../img/9-Assembled.png" alt="hardware assembly instructions step 9" title="hardware assembly instructions step 9"></p>
 				</div>
 			</div>
 		</div>
@@ -265,21 +228,16 @@
 			<div class="row">
 				<div class="col-md-6 animated wow fadeInRight">
 					<div class="features_list" style="margin-bottom:4em;">
-						<h1 class="text-uppercase text-center">Software</h1>
+						<h1 class="text-uppercase">Software</h1>
 					</div>
 				</div>
-				<div class="col-md-12 animated wow fadeInLeft pb-robot">
-					<div class="pb-robot">
-						<div class="iphone">
-							<img src="img/iphone.png" alt="" title="">
-						</div>
-					</div>
-					<div class="pb-robot-btns">
-						<a href="#quick" class="pb-robot-btn"><i class="fa fa-flash"></i> Quick Start</a>
-						<a href="#bom" class="pb-robot-btn"><i class="fa fa-cubes"></i> Bill Of Materials (BOM)</a>
-						<a href="#hardware" class="pb-robot-btn"><i class="fa fa-gears"></i> Hardware Assembly</a>
-						<a href="#software" class="pb-robot-btn"><i class="fa fa-code"></i> Software Development</a>
-					</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6 tile animated wow fadeInLeft" style="margin:2em;">
+				<div class="pb-robot-btns" style="margin:auto;">
+					<a href="https://github.com/pakobots/firmware/tree/esp32" target="_blank" class="pb-robot-btn"><i class="fa fa-cubes"></i> Firwmare</a>
+					<a href="http://invent.pakobots.com/app/" target="_blank" class="pb-robot-btn"><i class="fa fa-desktop"></i> User Interface</a>
 				</div>
 			</div>
 		</div>
@@ -300,7 +258,7 @@
 				<a href=""><img src="img/windows_icon.png" alt="" title=""></a>
 			</li>
 		</ul>
-		<p class="copyright animated wow fadeIn" data-wow-duration="2s">© 2017 <a href="http://pakobots.com" target="_blank"><strong>Pako Bots</strong></a>. All Rights Reserved</p>
+		<p class="copyright animated wow fadeIn" data-wow-duration="2s">© 2017 <a href="http://pakobots.com" target="_blank"><strong>Pako Bots division of Origami 3</strong></a>. All Rights Reserved</p>
 	</footer>
 	<!--  End Footer Section  -->
 

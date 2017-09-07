@@ -5,25 +5,58 @@ header {
   align-items: center;
   padding-left: 2em;
   font-weight: bold;
-  width:100%;
-  color:white;
+  width: 100%;
+  color: white;
 }
 
-header i{
-  margin-right:0.75em;
+header i {
+  margin-right: 0.75em;
 }
 
-header a{
+header a {
   text-decoration: none;
-  color:white;
+  color: white;
 }
 
-header a:hover{
+header a:hover {
   text-decoration: none;
-  color:white;
+  color: white;
 }
 
-header span{
+header span {
   flex-grow: 1;
   text-align: center;
+}
+
+table {
+  margin: auto;
+}
+
+table td, table th {
+  border-bottom: 1px solid #e0e0e0;
+  padding: 1em 1em 0 1em;
+  white-space: nowrap;
+}
+
+.bom-total {
+  border: 0;
+  padding: 3em 0;
+  color: #424242;
+  font-size: larger;
+}
+
+.hardware .tile p {
+  display: block;
+}
+
+.hardware .tile img {
+  max-width: 400px;
+  margin: 3em;
+}
+
+.hardware .tile {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }

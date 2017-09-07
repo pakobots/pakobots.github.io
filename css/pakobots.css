@@ -1,3 +1,7 @@
+a:focus {
+  color: #333!important;
+}
+
 .pb-robot {
   display: flex;
   flex-direction: column;
@@ -14,21 +18,21 @@
   flex-grow: 1;
   margin: 1em;
   border-radius: 0;
-  background-color:white;
-  border:1px solid #d2cfcf;
-  color:#333;
+  background-color: white;
+  border: 1px solid #d2cfcf;
+  color: #333;
   padding: 1em;
-  cursor:pointer;
-  transition:all 0.3s;
+  cursor: pointer;
+  transition: all 0.3s;
   text-align: center;
 }
 
-.pb-robot-btns .pb-robot-btn:hover{
-  background-color:#ebfff9;
-  border:1px solid #148e69;
+.pb-robot-btns .pb-robot-btn:hover {
+  background-color: #ebfff9;
+  border: 1px solid #148e69;
   text-decoration: none;
 }
 
-.pb-robot-btns .pb-robot-btn i{
-  margin-right:1em;
+.pb-robot-btns .pb-robot-btn i {
+  margin-right: 1em;
 }
