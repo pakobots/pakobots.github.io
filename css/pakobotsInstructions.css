@@ -38,6 +38,11 @@ table td, table th {
   white-space: nowrap;
 }
 
+.title-sub{
+  border-bottom:1px solid gray;
+  margin:10em 0 4em 4em;
+}
+
 .bom-total {
   border: 0;
   padding: 3em 0;
@@ -45,16 +50,16 @@ table td, table th {
   font-size: larger;
 }
 
-.hardware .tile p {
+.mechanical .tile p {
   display: block;
 }
 
-.hardware .tile img {
+.mechanical .tile img {
   max-width: 400px;
   margin: 3em;
 }
 
-.hardware .tile {
+.mechanical .tile {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
