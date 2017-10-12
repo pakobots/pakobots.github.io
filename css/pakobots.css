@@ -2,6 +2,17 @@ a:focus {
   color: #333!important;
 }
 
+.pb-social i{
+  font-size:25px;
+  color:white;
+  margin-right:1em;
+}
+
+.pb-features i{
+  font-size:30px;
+  color:white;
+}
+
 .pb-robot {
   display: flex;
   flex-direction: column;
