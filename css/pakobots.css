@@ -6,6 +6,7 @@ a:focus {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
+  margin:2em 0;
 }
 
 .pb-robot .pb-robot-btns {
